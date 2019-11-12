@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="text/javascript"></script>
+    <title>Tabular Process</title>
+</head>
+
+<body>
+    <form id="form1">
+        <p>Size of tabular:</p>
+        <input type="text" class="input1" id="width" placeholder="Width of tabular" />
+        <h1>X</h1>
+        <input type="text" class="input1" id="height" placeholder="Height of tabular" />
+        <button type="button" class="btn" id="button" onclick="create_tab();">
+      Create Table
+    </button>
+    </form>
+
+    <div class="block" id="block1">
+        <p>Изменить границы таблицы:</p>
+        <p>Width change(best >500):</p>
+        <input type="text" class="input2" id="width2" placeholder="Width of tabular" />
+        <form class="form_change">
+            <p>
+                CSS tabular change("none|hidden|dotte|dashed|solid|double|groove|ridge|inset|outset|inherit"):
+            </p>
+            <input type="text" class="input2" id="css" placeholder="none|hidden|dotted|dashed|solid" />
+            <button type="button" class="btn" id="button1" onclick="change();">
+        Change Table
+      </button>
+        </form>
+    </div>
+    <div class="form_change" id="caption">
+        <p>Добавить заголовок:</p>
+        <input type="text" class="input2" id="cap_text" placeholder="Caption of table" />
+        <button type="button" class="btn" id="cap_button" onclick="add_caption();">
+      Добавить
+    </button>
+    </div>
+    <div class="form_change" id="caption">
+        <p>Random:</p>
+        <button type="button" class="btn" id="cap_button" onclick="random_color();">
+      Random color
+    </button>
+    </div>
+    <div class="form_change" id="delete_tab">
+        <p>Удалить строку:</p>
+        <input type="text" class="input2" id="del_text" placeholder="Number row delete:" />
+        <button type="button" class="btn" id="cap_button" onclick="dele();">
+      Удалить
+    </button>
+    </div>
+    <div class="form_change" id="delete">
+        <p>Удалить таблицы:</p>
+        <button type="button" class="btn" id="delele_tab" onclick="dele_tab();">
+      Удалить
+    </button>
+    </div>
+</body>
+
+</html>
