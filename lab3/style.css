@@ -1,0 +1,100 @@
+.header {
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    width: 100%;
+    height: 50px;
+}
+
+.body {
+    height: 600px;
+    width: 100%;
+}
+
+.header h1 {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.vertical-menu {
+    width: 200px;
+    /* Set a width if you like */
+    height: 250px;
+    float: left;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.content {
+    height: 100%;
+    width: 70%;
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    float: left;
+}
+
+.chatbox {
+    margin-top: 28%;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+}
+
+.chatbox p {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.footer {
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    text-decoration: none;
+}
+
+.footer p {
+    vertical-align: middle;
+    text-align: center;
+}
