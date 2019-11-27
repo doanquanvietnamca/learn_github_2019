@@ -1,0 +1,78 @@
+style.css Today 2:38 PM a Anh Phạm changed permissions on an item style Sheet style.css Can edit You Anyone with the link Earlier this week Tue 1:59 PM a Anh Phạm shared an item style Sheet style.css Can view Anyone with the link Tue 1:59 PM a Anh Phạm restricted access to an item style Sheet style.css Anyone with the link Tue 1:58 PM a Anh Phạm shared an item style Sheet style.css Can view Anyone with the link Tue 1:57 PM a Anh Phạm uploaded an item style Sheet style.css .input1 {
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: blue;
+    float: left;
+}
+
+h1 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    margin-left: 5px;
+    padding: 13px;
+    width: 20%;
+    text-align: center;
+    pointer-events: all;
+}
+
+td {
+    width: 30%;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 40px;
+}
+
+.btn1 {
+    width: 30%;
+    float: left;
+    margin-left: 15px;
+}
+
+.block {
+    width: 100%;
+    float: left;
+    height: 230px;
+    display: none;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.input2 {
+    width: 20%;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+.caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+.form_change {
+    width: 100%;
+    float: left;
+    height: 100px;
+    margin: 10px;
+    display: none;
+}
+
+.random-block {
+    width: 100%;
+    float: left;
+    height: 100px;
+    margin: 10px;
+    display: none;
+}
