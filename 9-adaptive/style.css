@@ -1,0 +1,40 @@
+.customers {
+    font-family: "Oswald", Helvetica, Arial, sans-serif!important;
+}
+
+.linkmenu a {
+    color: white!important;
+}
+
+.card {
+    width: 250%!important;
+}
+
+.card img {
+    height: 200px!important;
+    width: 400px!important;
+}
+
+.footer-right a:hover {
+    color: white;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-image: url('right-arrow.png');
+}
+
+.d-block {
+    width: 1062px!important;
+    height: 501px!important;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-item img:hover {
+    opacity: 0.8;
+}
